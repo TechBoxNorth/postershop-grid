@@ -49,3 +49,14 @@
   border-radius: 4px;
   font-weight: bolder;
 }
+
+.three-x-three {
+  background-color: black;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 12px;
+  justify-content: center;
+}
+
+.three-x-three .grid-item {
+}
