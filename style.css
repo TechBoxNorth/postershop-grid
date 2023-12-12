@@ -50,6 +50,13 @@
   font-weight: bolder;
 }
 
+.large button {
+  font-size: 120%;
+  height: 42px;
+  padding: 0 15px;
+  margin: 10px;
+}
+
 .three-x-three {
   background-color: black;
   display: grid;
@@ -60,9 +67,42 @@
 
 .two-large {
   padding-top: 80px;
+  padding-bottom: 80px;
   background-color: black;
   display: grid;
   grid-template-columns: auto auto;
   gap: 48px;
   justify-content: center;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 250px;
+  justify-content: center;
+  color: white;
+  background-color: rgb(87, 82, 82);
+  font-weight: bold;
+  height: 300px;
+}
+
+footer h2 {
+  font-size: 40px;
+  margin-top: 65px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
 }
