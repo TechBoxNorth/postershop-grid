@@ -21,8 +21,8 @@
 .large {
   background-color: white;
   color: black;
-  max-width: 42%;
-  margin: 0 auto;
+  max-width: 480px;
+  /*margin: 0 auto;*/
   padding: 0;
 }
 
@@ -58,5 +58,11 @@
   justify-content: center;
 }
 
-.three-x-three .grid-item {
+.two-large {
+  padding-top: 80px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 48px;
+  justify-content: center;
 }
